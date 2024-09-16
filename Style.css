@@ -81,4 +81,37 @@ button{
 
 .content{
     background-color: white;
+    height: 400px;
+}
+.head2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px 0px;
+
+    
+}
+.info-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+.blue-img-holder{
+    height: 160px;
+    width: 160px;
+    border-radius: 15px;
+    border: #3882f6;
+    border-style: solid;
+    flex-shrink: 0;
+}
+.subtext-for-img{
+    display: flex;
+    width: 160px;
+    color: rgba(39, 39, 39, 0.678);
+    flex-wrap: wrap;
+    text-align: center;
 }
